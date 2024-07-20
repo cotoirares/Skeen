@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "205002717829",
+    "firebase_url": "https://skeen-e0591.firebaseio.com",
+    "project_id": "skeen-e0591",
+    "storage_bucket": "skeen-e0591.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205002717829:android:5cb5b5892a96c32ab147ec",
+        "android_client_info": {
+          "package_name": "com.example.skeenmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205002717829-om2jqhsf2edrd1ifp1lkst4p9eu6h4em.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skeenmobile",
+            "certificate_hash": "4da42ca73c7d33d7720a1fda44249cbe14aeabad"
+          }
+        },
+        {
+          "client_id": "205002717829-rhv7sqrar0cmka11oiclal1bu8gkebpt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skeenmobile",
+            "certificate_hash": "d11a2a3c7f927f4b7ef48370e4939d82e4ff389d"
+          }
+        },
+        {
+          "client_id": "205002717829-vb00oh8csc9l6mlreqtqtnftpsp3530p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skeenmobile",
+            "certificate_hash": "6b415c79aff82b55f4c7ca15a1d492a597e019c6"
+          }
+        },
+        {
+          "client_id": "205002717829-c8i01fkjoelehflvgtjvoe20369vho7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "HIDDEN"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205002717829-c8i01fkjoelehflvgtjvoe20369vho7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".treattips">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="310dp"
+        android:layout_height="145dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/skeen_site_header2" />
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Selecteaza boala"
+        android:textColor="#001E39"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/akiec"
+        android:layout_width="260dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFEB3B"
+        android:text="AKIEC"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select" />
+
+    <Button
+        android:id="@+id/bcc"
+        android:layout_width="260dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFEB3B"
+        android:text="BCC"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/akiec" />
+    <Button
+        android:id="@+id/bkl"
+        android:layout_width="260dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFEB3B"
+        android:text="BKL"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bcc" />
+    <Button
+        android:id="@+id/df"
+        android:layout_width="260dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFEB3B"
+        android:text="DF"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bkl" />
+    <Button
+        android:id="@+id/nv"
+        android:layout_width="260dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFEB3B"
+        android:text="NV"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/df" />
+    <Button
+        android:id="@+id/vasc"
+        android:layout_width="260dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFEB3B"
+        android:text="VASC"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
